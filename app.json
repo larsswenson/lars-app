@@ -1,13 +1,16 @@
 {
   "expo": {
     "name": "LarsApp",
-    "slug": "LarsApp",
+    "slug": "lars-app",
     "version": "1.0.0",
+    "description": "Lars Swenson's profile page",
+    "owner": "larsswenson",
+    "privacy": "hidden",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/lars_pic.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/lars_pic.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +22,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/lars_pic.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/lars_pic.png"
     }
   }
 }
